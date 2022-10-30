@@ -1,0 +1,85 @@
+.titulo{
+
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    align-items: center;
+    
+    
+}
+
+body{
+background-image: url(/imag/choly\ icon.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-color: grey;
+
+}
+header{
+    display: flex;
+    height: 40px;
+    background-color: rgb(1, 2, 2);
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+}
+nav a{
+    font-weight: 400;
+    padding-right: 0%;
+}
+
+nav a:hover{
+    color: rgb(247, 38, 38);
+}
+
+h4{
+    display: block;
+    font-size: 1em;
+    margin-block-start: 1em;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    background-color: rgb(72, 98, 89);
+    color: white
+}
+
+h2{
+    background-color: rgb(48, 41, 41);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.dibujo1{
+    float: left;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 10px;
+}
+
+
+.dibujo3{
+    float:none;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h4{
+    background-color: black;
+    color: antiquewhite;
+    align-items: center;
+}
